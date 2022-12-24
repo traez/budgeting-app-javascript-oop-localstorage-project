@@ -28,8 +28,8 @@ The objective of this project is to use JavaScript OOP. It takes a budget and ex
 
 ### Links
 
-- Solution URL: [https://github.com/traez/todo-list-javascript-oop-project](https://github.com/traez/todo-list-javascript-oop-project)
-- Live Site URL: [https://traez.github.io/todo-list-javascript-oop-project/](https://traez.github.io/todo-list-javascript-oop-project/)
+- Solution URL: [https://github.com/traez/budgeting-app-javascript-oop-localstorage-project](https://github.com/traez/budgeting-app-javascript-oop-localstorage-project)
+- Live Site URL: [https://traez.github.io/budgeting-app-javascript-oop-localstorage-project/](https://traez.github.io/budgeting-app-javascript-oop-localstorage-project/)
 
 ## My process
 
