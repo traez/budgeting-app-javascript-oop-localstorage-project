@@ -1,0 +1,136 @@
+/*
+https://jsbeginners.com/javascript-budget-app/
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  display: flex;
+  flex-flow: column;
+  justify-content: center; 
+  align-items: center;
+  width: 100%;
+  height:auto;
+  overflow: scroll;
+  font-family: 'Trebuchet MS';
+  background-color: hsl(0, 0%, 87%);
+  }
+body{
+  width: 100%;
+  height:auto;
+  padding: 1rem;
+  gap:1rem;
+  display:grid;
+  grid-template: auto/4fr 6fr;
+  grid-template-areas:
+  "bodyrl bodyrr";
+}
+main{
+  grid-area: bodyrl;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+  border: 2px dashed black;
+  padding: 0.2rem;
+}
+h1{
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:0.5rem;
+  padding: 0.5rem;
+  border: 2px dashed black;
+  width:100%;
+}
+li{
+  list-style-type: none; 
+  border: 2px dashed black;
+  padding: 0.5rem;
+  width:33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  font-size: 1rem;
+}
+#budget-icon{
+  background-image: url(/images/briefcase-budget.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 1px solid white;
+  height:2rem;
+  width: 2rem;
+}
+#expenses-icon{
+  background-image: url(/images/creditcard-expense.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 1px solid white;
+  height:2rem;
+  width: 2rem;
+}
+#balance-icon{
+  background-image: url(/images/currency-balance.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 1px solid white;
+  height:2rem;
+  width: 2rem; 
+}
+h3{
+  font-size: 1rem;
+}
+#budget-amount-sec{
+  padding: 0.5rem;
+  border: 2px dashed black;
+}
+#budget-amount-form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:0.5rem;
+}
+#add-budget{
+  padding: 0.2rem;
+}
+#expense{
+  padding: 0.5rem;
+  border: 2px dashed black;
+}
+#but-h4{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap:0.5rem;
+}
+#add-expense{
+  padding: 0.2rem;
+}
+article{
+  grid-area: bodyrr;
+  border: 2px dashed black;
+}
+h5{
+  font-size: 1.1rem;
+  text-align: center;
+}
+.design{
+  border: 2px dashed black;
+  text-align: center;
+  width:80%;
+  margin: 0 auto;
+}

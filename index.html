@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Trae's Budgeting App</title>
+<meta charSet="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-traedays.png">
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+        
+    <main>
+        <h1>Trae's Budget App; a JavaScript OOP Local Storage Project</h1>
+
+        <ul>
+            <li>
+                <h2>Budget</h2>
+                <div id="budget-icon"></div>
+                <h3>N<span id="budget"></span></h3>
+            </li>
+            <li>
+                <h2>Expenses</h2>
+                <div id="expenses-icon"></div>
+                <h3>N<span id="expenses"></span></h3>
+            </li>
+            <li>
+                <h2>Balance</h2>
+                <div id="balance-icon"></div>
+                <h3>N<span id="balance"></span></h3>
+            </li>
+        </ul>
+
+        <section id="budget-amount-sec">
+            <form id="budget-amount-form">
+                <label for="budget-amount">Please Enter Your Budget Amount</label>
+                <input id="budget-amount" type="text">
+                <button id="add-budget" type="button">Add</button>
+            </form>
+            <h4>Error Block</h4>
+        </section>
+
+        <form id="expense">
+            <fieldset>
+                <label for="expense-name">Please Enter Your Expense Name</label>
+                <input id="expense-name" type="text">
+            </fieldset>
+            <fieldset>
+                <label for="expense-amount">Please Enter Expense Amount</label>
+                <input id="expense-amount" type="text">
+            </fieldset>
+            <fieldset id="but-h4">
+                <button id="add-expense" type="button">Add</button>
+                <h4>Error Block</h4>
+            </fieldset>
+        </form>
+
+    </main>
+
+    <article>
+        <h5>Expenses (ID, Name, Amount) - Edit - Delete</h5>
+        <aside></aside>
+    </article>
+                   
+    <script src="script.js"></script>
+</body>
+</html>
