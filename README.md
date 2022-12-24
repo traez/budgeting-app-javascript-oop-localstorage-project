@@ -1,6 +1,6 @@
 # Section.io - Budgeting App Javascript OOP Local Storage Project on JS Beginners
 
-This is a solution to the [Budgeting App Javascript OOP Local Storage Project on JS Beginners](https://jsbeginners.com/todo-list-javascript-project-v1/). I am trying to improve my coding skills by building realistic projects. 
+This is a solution to the [Budgeting App Javascript OOP Local Storage Project on JS Beginners](https://jsbeginners.com/javascript-budget-app/). I am trying to improve my coding skills by building realistic projects. 
 
 ## Table of contents
 
